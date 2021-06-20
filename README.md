@@ -20,7 +20,7 @@ $ git clone https://github.com/hchchiu/RPi4-LightController.git
 $ cd RPi4-LightController
 
 #install packages
-$ pip3 install -p requirments.txt
+$ pip3 install -r requirments.txt
 ```
 
 
