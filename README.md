@@ -65,7 +65,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 
 ## Results
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/gesture.gif" width=30%>
+<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/gesture.gif" width=20%>
 </div>
 
 ## References
