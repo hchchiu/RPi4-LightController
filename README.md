@@ -63,9 +63,13 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 
 ## Details
 
-## Results
+## Results & Demo
+- 手勢辨識開關燈
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/IMG_6110_2.gif" width=30%>
+<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/IMG_6110_2.gif" width=35%>
 </div>
+
+- 聲音辨識開關燈
+https://youtu.be/hZ0RpbavAHg
 
 ## References
