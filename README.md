@@ -14,7 +14,7 @@ Python == 3.7
 下載需要的檔案以及packages
 ```bash
 #download files
-$ git clone https://github.com/hchchiu/RPi4LightController.git
+$ git clone https://github.com/hchchiu/RPi4-LightController.git
 
 #change directory
 $ cd RPi4LightController
