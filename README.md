@@ -34,9 +34,9 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 - servo MG996R or SG90
 
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/github.png" width="100" height="100">
+<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/github.png" width=50% height=50%>
 </div>
-![image](https://github.com/hchchiu/RPi4-LightController/blob/master/github.png | width=50)
+
 
 ## Details
 
