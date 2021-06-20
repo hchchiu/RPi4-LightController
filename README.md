@@ -17,11 +17,22 @@
 |ffmpeg|
 |opencv|
 
+## Supported Python Version
+Python == 3.7
 
 ## Build
 
-### Supported Python Version
-Python == 3.7
+在樹梅派中建立虛擬環境
+```bash
+#install virtualenv package
+$ sudo pip3 install virtualenv
+
+#create virtual env
+$ sudo virtualenv "YOUR ENV NAME"
+
+#變更目錄權限為pi
+$ sudo chown -R pi:pi "YOUR ENV NAME"
+```
 
 ### Installation
 下載需要的檔案以及packages
@@ -32,8 +43,8 @@ $ git clone https://github.com/hchchiu/RPi4-LightController.git
 #change directory
 $ cd RPi4-LightController
 
-#install packages
-$ pip3 install -r requirments.txt
+#install all packages
+$ sudp pip3 install -r requirments.txt
 ```
 
 透過[Google API Console](https://console.developers.google.com/)申請Google Cloud Speech API金鑰，並且將金鑰檔案(JSON File)設定到環境變數中
