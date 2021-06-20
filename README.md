@@ -30,8 +30,9 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 ```
 
 ### Hardware
-- webcam
-- servo MG996R or SG90
+- Webcam
+- Servo MG996R or SG90
+- Raspberry Pi 4 Model B
 
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/pinout.png" width=80%>
