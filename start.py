@@ -100,5 +100,9 @@ def recording(filename, time=0, threshold=6000):
 
 print("Execute web_app.py")
 os.system("python3 web_app.py &")
-while True:
-    recording('out.mp3') 
+if __name__ == '__main__':
+	try:
+		recording('out.mp3') 
+	except KeyboardInterrupt:
+		print("Interrupt")
+		os.system("ps aux | grep web_app.py | awk '{print $2}'| xargs kill -9")
