@@ -10,6 +10,7 @@
 ### Supported Python Version
 Python == 3.7
 
+### Install
 下載需要的檔案以及packages
 ```bash
 #download files
@@ -22,6 +23,11 @@ $ cd RPi4LightController
 $ pip3 install -p requirments.txt
 ```
 
+
+下載Opencv需要的dependency packages
+```bash
+$ sudo apt install libxcb-shm0 libcdio-paranoia-dev libsdl2-2.0-0 libxv1  libtheora0 libva-drm2 libva-x11-2 libvdpau1 libharfbuzz0b libbluray2 libatlas-base-dev libhdf5-103 libgtk-3-0 libdc1394-22 libopenexr23
+```
 
 透過[Google API Console](https://console.developers.google.com/)申請Google Cloud Speech API金鑰，並且將金鑰檔案(JSON File)設定到環境變數中
 ```bash
