@@ -17,7 +17,7 @@ Python == 3.7
 $ git clone https://github.com/hchchiu/RPi4-LightController.git
 
 #change directory
-$ cd RPi4LightController
+$ cd RPi4-LightController
 
 #install packages
 $ pip3 install -p requirments.txt
