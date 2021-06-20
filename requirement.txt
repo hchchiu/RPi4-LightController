@@ -4,3 +4,5 @@ scipy
 mediapipe-rpi4
 google-cloud-speech
 RPI.GPIO
+ffmpeg
+python3-opencv
