@@ -7,8 +7,9 @@
 
 ## Build
 ```shell
-
-$ pip3 install mediapipe-rpi4
+$ git clone https://github.com/hchchiu/RPi4LightController.git
+$ cd RPi4LightController
+$ pip3 install -p requirments.txt
 ```
 ## Details
 
