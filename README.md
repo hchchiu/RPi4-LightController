@@ -82,7 +82,7 @@ https://youtu.be/hZ0RpbavAHg
 
 ## References
 
-[Google Cloud Speech API](https://cloud.google.com/speech-to-text)
-[Google Mediapipe](https://google.github.io/mediapipe/)
-[Google Cloud Speech Documentation]https://github.com/googleapis/python-speech
-[MediaPipe tutorial]https://techtutorialsx.com/2021/04/20/python-real-time-hand-tracking/
+- [Google Cloud Speech API](https://cloud.google.com/speech-to-text)
+- [Google Mediapipe](https://google.github.io/mediapipe/)
+- [Google Cloud Speech Documentation]https://github.com/googleapis/python-speech
+- [MediaPipe tutorial]https://techtutorialsx.com/2021/04/20/python-real-time-hand-tracking/
