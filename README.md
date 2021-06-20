@@ -64,7 +64,9 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 </div>
 
 ## Usage
+輸入以下指令開始執行
 ```bash
+#start all the program
 $ python3 start.py
 ```
 
