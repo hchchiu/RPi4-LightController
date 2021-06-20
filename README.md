@@ -12,8 +12,6 @@
 |Flask|
 |scipy|
 |pyaudio|
-|mediapipe-rpi4|
-|google-cloud-speech|
 |ffmpeg|
 |opencv|
 
