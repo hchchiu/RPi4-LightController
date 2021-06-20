@@ -54,6 +54,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 ### Hardware
 - Webcam
 - Servo MG996R or SG90
+-- 5
 - Raspberry Pi 4 Model B
 
 <div>
