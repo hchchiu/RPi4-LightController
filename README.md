@@ -5,12 +5,26 @@
 
 基於Raspberry Pi 4 Model B結合[Google Cloud Speech API](https://cloud.google.com/speech-to-text)與[Google Mediapipe](https://google.github.io/mediapipe/)做到語音辨識以及手勢辨識開關燈。
 
+## Dependencies
+|Name|
+|----|
+|numpy|
+|Flask|
+|scipy|
+|pyaudio|
+|mediapipe-rpi4|
+|google-cloud-speech|
+|RPI.GPIO|
+|ffmpeg|
+|opencv-python==4.4.0.44|
+
+
 ## Build
 
 ### Supported Python Version
 Python == 3.7
 
-### Install
+### Installation
 下載需要的檔案以及packages
 ```bash
 #download files
