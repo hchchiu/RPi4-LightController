@@ -65,6 +65,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 
 
 ## Details
+系統流程圖
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=70%>
 </div>
