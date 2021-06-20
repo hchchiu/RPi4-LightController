@@ -98,7 +98,7 @@ def recording(filename, time=0, threshold=6000):
     speech2Text()
 
 
-print("Execute webCam.py ")
-os.system("python3 webCam.py &")
+print("Execute web_app.py")
+os.system("python3 web_app.py &")
 while True:
     recording('out.mp3') 
