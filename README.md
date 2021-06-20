@@ -14,9 +14,8 @@
 |pyaudio|
 |mediapipe-rpi4|
 |google-cloud-speech|
-|RPI.GPIO|
 |ffmpeg|
-|opencv-python==4.4.0.44|
+|opencv|
 
 
 ## Build
