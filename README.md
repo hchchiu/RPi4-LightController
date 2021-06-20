@@ -7,8 +7,13 @@
 
 ## Build
 ```shell
+#download files
 $ git clone https://github.com/hchchiu/RPi4LightController.git
+
+#change directory
 $ cd RPi4LightController
+
+#install packages
 $ pip3 install -p requirments.txt
 ```
 ## Details
