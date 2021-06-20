@@ -1,0 +1,6 @@
+numpy
+flask
+scipy
+mediapipe-rpi4
+google-cloud-speech
+RPI.GPIO
