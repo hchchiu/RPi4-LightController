@@ -57,7 +57,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 - Raspberry Pi 4 Model B
 
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/pinout.png" width=80%>
+<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/pinout.png" width=80%>
 </div>
 
 
