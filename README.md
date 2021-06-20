@@ -63,6 +63,10 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/pinout.png" width=80%>
 </div>
 
+## Usage
+```bash
+$ python3 start.py
+```
 
 ## Details
 系統流程圖
