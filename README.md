@@ -7,6 +7,9 @@
 
 ## Build
 
+### Supported Python Version
+Python == 3.7
+
 下載需要的檔案以及packages
 ```bash
 #download files
