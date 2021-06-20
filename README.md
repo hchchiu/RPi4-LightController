@@ -28,6 +28,12 @@ $ pip3 install -r requirments.txt
 #set your api key path to the environment variable
 $ export GOOGLE_APPLICATION_CREDENTIALS="GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 ```
+
+### Hardware
+- webcam
+- servo MG996R or SG90
+
+
 ## Details
 
 ## Results
