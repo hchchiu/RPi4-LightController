@@ -7,6 +7,7 @@
 
 ## Build
 ```shell
+
 $ pip3 install mediapipe-rpi4
 ```
 ## Details
