@@ -16,7 +16,10 @@
 |opencv|
 
 ## Supported Python Version
-Python == 3.7
+- Python == 3.7
+
+## Supported Platform
+* Raspberry PI 4 - Raspbian Buster
 
 ## Build
 
