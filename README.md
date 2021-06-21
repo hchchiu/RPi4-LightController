@@ -20,7 +20,7 @@ Python == 3.7
 
 ## Build
 
-在樹梅派中建立虛擬環境
+在樹梅派中建立虛擬環境(Optional)
 ```bash
 #install virtualenv package
 $ sudo pip3 install virtualenv
