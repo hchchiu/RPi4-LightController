@@ -57,7 +57,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>
 ### Hardware
 #### Pre-requisites
 1. Raspberry Pi 4 Model B
-2. Webcam
+2. Webcam(含麥克風功能)
 3. Servo MG996R or SG90
 
 #### 安裝
