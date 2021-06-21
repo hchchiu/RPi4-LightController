@@ -81,8 +81,8 @@ $ python3 start.py
   - 手掌開 &rArr; 開燈
   - 手掌關 &rArr; 關燈
 * 聲音控制
-  - 說出 "開啟電燈" &rArr; 開燈
-  - 說出 "關閉電燈" &rArr; 關燈
+  - 說出 **"開啟電燈"** &rArr; 開燈
+  - 說出 **"關閉電燈"** &rArr; 關燈
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/webui.png" width=60%>
 </div>
