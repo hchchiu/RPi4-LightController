@@ -83,7 +83,7 @@ $ python3 start.py
 ## Details
 系統流程圖
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=70%>
+<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=80%>
 </div>
 
 ## Results & Demo
