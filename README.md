@@ -75,7 +75,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>
 ## Usage
 - 輸入以下指令開始執行。
 ```bash
-#start all the program
+#start detect
 $ python3 start.py
 ```
 
