@@ -78,8 +78,8 @@ $ python3 start.py
 - 在相同網域底下輸入剛才查看的ip位置及port(192.168.0.104:5000)，即可透過網頁呈現
 - 此時使用者可以透過手勢或聲音控制電燈的開關
 * 手勢控制
-  - 手掌開 &rArr 開燈
-  - 手掌關 &rArr 關燈
+  - 手掌開 &rArr; 開燈
+  - 手掌關 &rArr; 關燈
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/webui.png" width=60%>
 </div>
