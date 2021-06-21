@@ -75,7 +75,7 @@ $ python3 start.py
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/ip.jpg" width=60%>
 </div>
 
-在相同網域底下輸入剛才查看的ip位置，即刻透過網頁呈現
+在相同網域底下輸入剛才查看的ip位置，即可透過網頁呈現
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/webui.png" width=60%>
 </div>
