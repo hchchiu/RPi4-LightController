@@ -98,9 +98,18 @@ $ python3 start.py
 
 ## Details
 * 透過兩種輸入判斷使用者要開燈還是關燈:
+
 ### 聲音辨識
-1.
+1. 聲音輸入
+2. 藉由Google Cloud API將語音轉為文字(Speech to text)
+3. 判斷使用者說出的文字
+4. 控制伺服馬達開關電燈
 ### 手勢辨識
+1. 手勢輸入
+2. 藉由Google MediaPipe辨識手指的位置
+3. 藉由手指位置判斷手掌開合
+4. 控制伺服馬達開關電燈
+
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=80%>
 </div>
