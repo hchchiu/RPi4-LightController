@@ -57,9 +57,9 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 3. Servo MG996R or SG90
 
 * Servo與樹梅派連接的腳位
-- VDD(pin 2)
-- Ground(pin 6)
-- PWM(pin 12)
+  - VDD(pin 2)
+  - Ground(pin 6)
+  - PWM(pin 12)
 
 將Servo安裝於電燈的按鈕上。
 <div>
