@@ -26,10 +26,10 @@ Python == 3.7
 $ sudo pip3 install virtualenv
 
 #create virtual env
-$ sudo virtualenv "YOUR ENV NAME"
+$ sudo virtualenv "<YOUR ENV NAME>"
 
 #變更目錄權限為pi
-$ sudo chown -R pi:pi "YOUR ENV NAME"
+$ sudo chown -R pi:pi "<YOUR ENV NAME>"
 ```
 
 ### Installation
@@ -48,10 +48,11 @@ $ sudp pip3 install -r requirments.txt
 透過[Google API Console](https://console.developers.google.com/)申請Google Cloud Speech API金鑰，並且將金鑰檔案(JSON File)設定到環境變數中
 ```bash
 #set your api key path to the environment variable
-$ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
+$ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>"
 ```
 
 ### Hardware
+需要的
 1. Raspberry Pi 4 Model B
 2. Webcam
 3. Servo MG996R or SG90
