@@ -81,7 +81,10 @@ $ python3 start.py
 </div>
 
 ## Details
-系統流程圖
+1. 透過兩種輸入判斷使用者要開燈還是關燈，分別是
+  - 聲音輸入
+  - 手勢輸入
+3.
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=80%>
 </div>
