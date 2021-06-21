@@ -64,18 +64,18 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH"
 </div>
 
 ## Usage
-輸入以下指令開始執行
+- 輸入以下指令開始執行
 ```bash
 #start all the program
 $ python3 start.py
 ```
 
-查看ip位置
+- 查看ip位置以及port(以這裡為例:192.168.0.104:5000)
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/ip.jpg" width=60%>
 </div>
 
-在相同網域底下輸入剛才查看的ip位置，即可透過網頁呈現
+- 在相同網域底下輸入剛才查看的ip位置及port(192.168.0.104:5000)，即可透過網頁呈現
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/webui.png" width=60%>
 </div>
