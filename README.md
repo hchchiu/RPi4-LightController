@@ -113,6 +113,9 @@ $ python3 start.py
 
 
 - 聲音辨識開關燈
+<a href="https://youtu.be/hZ0RpbavAHg" target="_blank"><img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/thumbnail.jpg" 
+alt="聲音辨識開燈" width="240" height="180" border="10" />
+</a>
 https://youtu.be/hZ0RpbavAHg
 
 ## References
