@@ -52,17 +52,19 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>
 ```
 
 ### Hardware
-需要的
+#### Pre-requisites
 1. Raspberry Pi 4 Model B
 2. Webcam
 3. Servo MG996R or SG90
 
+#### 安裝
 * Servo與樹梅派連接的腳位
   - VDD(pin 2)
   - Ground(pin 6)
   - PWM(pin 12)
+* Webcam透過USB連接到樹梅派
+* 將Servo安裝於電燈的按鈕上
 
-將Servo安裝於電燈的按鈕上。
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/pinout.png" width=80%>
 </div>
