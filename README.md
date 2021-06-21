@@ -113,11 +113,16 @@ $ python3 start.py
 2. 藉由Google Cloud API將語音轉為文字(Speech to text)
 3. 判斷使用者說出的文字
 4. 控制伺服馬達開關電燈
+
 ### 手勢辨識
 1. 手勢輸入
 2. 藉由Google MediaPipe辨識手指的位置
 3. 藉由手指位置判斷手掌開合
 4. 控制伺服馬達開關電燈
+
+### 網頁顯示
+1. 用Flask將樹梅派當作server
+2. 將Webcam拍攝的影像傳送到網頁中
 
 <div>
 <img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=80%>
