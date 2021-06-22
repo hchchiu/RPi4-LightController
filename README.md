@@ -125,9 +125,10 @@ $ python3 start.py
 
 ### 聲音辨識
 1. 聲音輸入
-2. 藉由Google Cloud API將語音轉為文字(Speech to text)
-3. 判斷使用者說出的文字
-4. 控制伺服馬達開關電燈
+2. 藉由Pyaudio將使用者說出的音訊轉成音檔
+3. 藉由Google Cloud API將音檔中的音訊轉為文字(Speech to text)
+4. 判斷使用者說出的文字
+5. 控制伺服馬達開關電燈
 
 ### 手勢辨識
 1. 手勢輸入
@@ -171,3 +172,4 @@ alt="聲音辨識開燈" width=45% />
 - [Google Cloud Speech API Documentation](https://github.com/googleapis/python-speech)
 - [MediaPipe tutorial](https://techtutorialsx.com/2021/04/20/python-real-time-hand-tracking/)
 - [在樹莓派建立Python虛擬環境](https://dsalearning.github.io/aiot/raspberry-pip3-create-env/)
+- [Pyaudio 教學](https://zwindr.blogspot.com/2017/03/python-pyaudio.html)
