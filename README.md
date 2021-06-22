@@ -101,7 +101,7 @@ $ python3 start.py
 
 - 查看ip位置以及port(以這裡為例:192.168.0.104:5000)。
 <div>
-<img src="/doc/ip.jpg" width=65%>
+<img src="/doc/ip.jpg" width=70%>
 </div>
 
 - 在相同網域底下輸入剛才查看的ip位置及port(以這裡為例:192.168.0.104:5000)，即可透過網頁呈現。
@@ -117,7 +117,7 @@ $ python3 start.py
   - 按下 **Turn Off** &rArr; 關燈
   - 按下 **Change Mode** &rArr; 改變電燈模式(依照每個人的電燈功能而有所不同)
 <div>
-<img src="/doc/webui.png" width=65%>
+<img src="/doc/webui.png" width=70%>
 </div>
 
 ## Details
