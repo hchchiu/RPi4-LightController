@@ -39,7 +39,10 @@ $ sudo chown -R pi:pi <YOUR ENV NAME>
 
 #檢查目錄權限是否為pi
 $ ls -al
+```
 
+進入及退出虛擬環境指令
+```bash
 #進入虛擬環境
 $ source <YOUR ENV NAME>/bin/activate
 
