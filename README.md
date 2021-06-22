@@ -11,12 +11,13 @@
 ## Dependencies
 |Name|
 |----|
-|numpy|
-|Flask|
-|scipy|
-|pyaudio|
-|ffmpeg|
-|opencv|
+|numpy 1.20.3|
+|Flask 2.0.1|
+|scipy 1.7.0|
+|pyAudio 0.2.11|
+|opencv-python 4.4.0.44|
+|ffmpeg 1.4|
+
 
 ## Supported Python Version
 - Python == 3.7
