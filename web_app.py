@@ -9,7 +9,7 @@ app = Flask(__name__)
 drawingModule = mediapipe.solutions.drawing_utils
 handsModule = mediapipe.solutions.hands
 
-#cv2
+#cv2 0 for webcam
 camera = cv2.VideoCapture(0)
 frameWidth = camera.get(cv2.CAP_PROP_FRAME_WIDTH)
 frameHeight = camera.get(cv2.CAP_PROP_FRAME_HEIGHT)
@@ -28,6 +28,8 @@ def gen_frames():  # generate frame by frame from camera
                 results = hands.process(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
     
                 handLandmarks_list=[]
+                #讀取手指的位置並正規化為pixel座標
+
                 if results.multi_hand_landmarks != None:
                     for handLandmarks in results.multi_hand_landmarks:
                         drawingModule.draw_landmarks(frame, handLandmarks, handsModule.HAND_CONNECTIONS)
@@ -37,6 +39,8 @@ def gen_frames():  # generate frame by frame from camera
                             handLandmarks_list.append(pixelCoordinatesLandmark)
 
                 ls=[]
+                #藉由手指的位置
+                #判斷手掌的開合
                 if len(handLandmarks_list) != 0:
                     if handLandmarks_list[8] != None and handLandmarks_list[6] != None:
                         if handLandmarks_list[8][1]> handLandmarks_list[6][1]:
@@ -58,18 +62,19 @@ def gen_frames():  # generate frame by frame from camera
                 yield (b'--frame\r\n'
                        b'Content-Type: image/jpeg\r\n\r\n' + frame + b'\r\n')  # concat frame one by one and show result
 
-
+#影片的串流
 @app.route('/video_feed')
 def video_feed():
     #Video streaming route. Put this in the src attribute of an img tag
     return Response(gen_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
-
+#根目錄
 @app.route('/')
 def index():
     """Video streaming home page."""
     return render_template('main.html')
 
+#按下網頁turn_on按鈕
 @app.route("/on")
 def on():
     global toggle
@@ -77,6 +82,7 @@ def on():
     toggle = 1
     return render_template("main.html")
 
+#按下網頁turn_off按鈕
 @app.route("/off")
 def off():
     global toggle
@@ -84,6 +90,7 @@ def off():
     toggle = 0
     return render_template("main.html")
 
+#按下網頁changemode按鈕
 @app.route("/changemode")
 def changemode():
     turn_off()

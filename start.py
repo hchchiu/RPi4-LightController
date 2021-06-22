@@ -13,16 +13,19 @@ import io
 print('*Connect to the google!')
 client = speech.SpeechClient()
 
+#google cloud speech api
 def speech2Text():
     print('*Start Google speech API!')
+
+    #開啟剛剛寫好的mp3 file
     with io.open('out.mp3', "rb") as audio_file:
         content = audio_file.read()
-        mtime = time.ctime(os.path.getmtime('./out.mp3'))
-    print(mtime)
 
     #audio = speech.RecognitionAudio(uri=gcs_uri)
+    #讀取音訊
     audio = speech.RecognitionAudio(content=content)
 
+    #將音訊轉為文字
     config = speech.RecognitionConfig(
         encoding=speech.RecognitionConfig.AudioEncoding.LINEAR16,
         sample_rate_hertz=16000,
@@ -33,6 +36,8 @@ def speech2Text():
     print('Wait for Response!')
     response = client.recognize(config=config, audio=audio)
 
+
+    #判斷使用者說出的文字
     for result in response.results:
         print('You say:',result.alternatives[0].transcript)
         if result.alternatives[0].transcript == '開啟電燈':
@@ -43,7 +48,7 @@ def speech2Text():
             print('Start turn off the light!')
             turn_off()
 
-
+#開始偵測音訊
 def recording(filename, time=0, threshold=6000):
 
     CHUNK = 1024 
@@ -69,8 +74,14 @@ def recording(filename, time=0, threshold=6000):
             data = stream.read(CHUNK)
             rt_data = np.frombuffer(data, np.dtype('<i2'))
 
+            #fourier transform
             fft_temp_data = fftpack.fft(rt_data, rt_data.size, overwrite_x=True)
             fft_data = np.abs(fft_temp_data)[0:fft_temp_data.size // 2 + 1]
+
+            #判斷聲音的大小
+            #超過threshold開始記錄
+            #小於thrshold並停止
+            #呼叫google cloud speech api
 
             if sum(fft_data) // len(fft_data) > threshold:
                 frames.append(data)
@@ -89,6 +100,8 @@ def recording(filename, time=0, threshold=6000):
     stream.stop_stream()
     stream.close()
     p.terminate()
+    
+    #將音訊寫檔
     with wave.open(WAVE_OUTPUT_FILENAME, 'wb') as wf:
         wf.setnchannels(CHANNELS)
         wf.setsampwidth(p.get_sample_size(FORMAT))
@@ -102,6 +115,7 @@ print("Execute web_app.py")
 os.system("python3 web_app.py &")
 if __name__ == '__main__':
 	try:
+        #start detect voice
 		recording('out.mp3') 
 	except KeyboardInterrupt:
 		print("Interrupt")
