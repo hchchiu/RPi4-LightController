@@ -68,7 +68,7 @@ $ pip3 install -r requirement.txt
 $ sudo pip3 install -r requirement.txt
 ```
 
-透過[Google API Console](https://console.developers.google.com/)或是[Google Cloud Speech-To-Text Doc](https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries)申請Google Cloud Speech API金鑰，並且將金鑰檔案(JSON File)路徑設定到環境變數中
+透過[Google API Console](https://console.developers.google.com/)或是[Google Cloud Speech-To-Text Doc](https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries)申請Google Cloud Speech API金鑰(可參考[Google Cloud Speech API Key 申請](/GCAPIKEY.md))，並且將金鑰檔案(JSON File)路徑設定到環境變數中
 ```bash
 #set your api key path to the environment variable
 $ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>"
