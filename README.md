@@ -168,6 +168,6 @@ alt="聲音辨識開燈" width=45% />
 
 - [Google Cloud Speech API](https://cloud.google.com/speech-to-text)
 - [Google Mediapipe](https://google.github.io/mediapipe/)
-- [Google Cloud Speech Documentation](https://github.com/googleapis/python-speech)
+- [Google Cloud Speech API Documentation](https://github.com/googleapis/python-speech)
 - [MediaPipe tutorial](https://techtutorialsx.com/2021/04/20/python-real-time-hand-tracking/)
-- [樹梅派虛擬環境建立](https://dsalearning.github.io/aiot/raspberry-pip3-create-env/)
+- [在樹莓派建立Python虛擬環境](https://dsalearning.github.io/aiot/raspberry-pip3-create-env/)
