@@ -146,7 +146,7 @@ $ python3 start.py
 </div>
 
 ## Results
-#### 手勢辨識開關燈
+### 手勢辨識開關燈
 <div>
 <img src="/doc/IMG_6110_2.gif" width=35%>
 </div>
