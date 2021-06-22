@@ -154,13 +154,13 @@ $ python3 start.py
 
 ### 網頁控制開關燈
 <div>
-<img src="/doc/webtn2.gif" width=50%>
+<img src="/doc/webtn2.gif" width=55%>
 </div>
 
 ### 聲音辨識開關燈(點擊圖片)
 <div>
 <a href="https://youtu.be/hZ0RpbavAHg" target="_blank"><img src="/doc/thumbnail.jpg" 
-alt="聲音辨識開燈" width=50% />
+alt="聲音辨識開燈" width=55% />
 </a>
 </div>
 
