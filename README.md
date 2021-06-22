@@ -3,7 +3,10 @@
 ## Introduction
 由於每次要睡覺前都在滑手機，滑到一半睡意一來想要可以馬上關燈睡覺，可是電燈的開關在遠處，而起身關燈導致睡意又消失，因此每晚的睡覺時間都會拖到很晚。
 
-因此本專題是基於Raspberry Pi 4 Model B結合[Google Cloud Speech API](https://cloud.google.com/speech-to-text)與[Google Mediapipe](https://google.github.io/mediapipe/)做到語音辨識以及手勢辨識開關燈。
+因此本專題是將Raspberry Pi 4 Model B結合[Google Cloud Speech API](https://cloud.google.com/speech-to-text)與[Google Mediapipe](https://google.github.io/mediapipe/)，做到以下三種方法開燈:
+- 聲音辨識開關燈
+- 手勢辨識開關燈
+- 網頁按鈕開關燈
 
 ## Dependencies
 |Name|
