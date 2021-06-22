@@ -56,6 +56,7 @@ $ git clone https://github.com/hchchiu/RPi4-LightController.git
 #change directory
 $ cd RPi4-LightController
 ```
+根據環境擇一指令
 ```bash
 #在虛擬環境中
 $ pip3 install -r requirement.txt
