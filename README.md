@@ -78,7 +78,7 @@ $ export GOOGLE_APPLICATION_CREDENTIALS="<YOUR-GOOGLE-CLOUD-SPEECH-API_KEY_PATH>
 * 將Servo安裝於電燈的按鈕上
 
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/pinout.png" width=80%>
+<img src="/doc/pinout.png" width=80%>
 </div>
 
 ## Usage
@@ -90,7 +90,7 @@ $ python3 start.py
 
 - 查看ip位置以及port(以這裡為例:192.168.0.104:5000)。
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/ip.jpg" width=60%>
+<img src="/doc/ip.jpg" width=60%>
 </div>
 
 - 在相同網域底下輸入剛才查看的ip位置及port(192.168.0.104:5000)，即可透過網頁呈現。
@@ -102,7 +102,7 @@ $ python3 start.py
   - 說出 **"開啟電燈"** &rArr; 開燈
   - 說出 **"關閉電燈"** &rArr; 關燈
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/webui.png" width=60%>
+<img src="/doc/webui.png" width=60%>
 </div>
 
 ## Details
@@ -125,13 +125,13 @@ $ python3 start.py
 2. 將Webcam拍攝的影像傳送到網頁中
 
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/RPi4LightController.svg" width=80%>
+<img src="/doc/RPi4LightController.svg" width=80%>
 </div>
 
 ## Results & Demo
 - 手勢辨識開關燈
 <div>
-<img src="https://github.com/hchchiu/RPi4-LightController/blob/master/doc/IMG_6110_2.gif" width=35%>
+<img src="/doc/IMG_6110_2.gif" width=35%>
 </div>
 
 
