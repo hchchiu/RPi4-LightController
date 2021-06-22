@@ -1,8 +1,7 @@
 # RPi4 LightController
-
-## Introduction
 由於每次要睡覺前都在滑手機，滑到一半睡意一來想要可以馬上關燈睡覺，可是電燈的開關在遠處，而起身關燈導致睡意又消失，因此每晚的睡覺時間都會拖到很晚。而且一起床時又必須要走去遠處開燈。
 
+## Introduction
 因此本專題是將Raspberry Pi 4 Model B結合[Google Cloud Speech API](https://cloud.google.com/speech-to-text)與[Google MediaPipe](https://google.github.io/mediapipe/)模擬智慧開關，做到以下三種方法開關燈:
 - 聲音辨識開關燈
 - 手勢辨識開關燈
