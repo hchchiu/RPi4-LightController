@@ -149,18 +149,18 @@ $ python3 start.py
 ## Results
 ### 手勢辨識開關燈
 <div>
-<img src="/doc/IMG_6110_2.gif" width=35%>
+<img src="/doc/IMG_6110_2.gif" width=40%>
 </div>
 
 ### 網頁控制開關燈
 <div>
-<img src="/doc/webtn2.gif" width=45%>
+<img src="/doc/webtn2.gif" width=50%>
 </div>
 
 ### 聲音辨識開關燈(點擊圖片)
 <div>
 <a href="https://youtu.be/hZ0RpbavAHg" target="_blank"><img src="/doc/thumbnail.jpg" 
-alt="聲音辨識開燈" width=45% />
+alt="聲音辨識開燈" width=50% />
 </a>
 </div>
 
