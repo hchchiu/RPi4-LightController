@@ -2,7 +2,7 @@
 
 進入[Google Cloud Speech-To-Text Doc](https://cloud.google.com/speech-to-text/docs/quickstart-client-libraries)之後，登入Google帳號，並點選**Set up a project**按鈕。
 <div>
-<img src="/doc/googeapikey.png" width=70%>
+<img src="/doc/googapikey.png" width=70%>
 </div>
 
 填寫自己要建立的Project名稱
