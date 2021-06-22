@@ -142,7 +142,7 @@ $ python3 start.py
 4. 控制伺服馬達開關電燈
 
 <div>
-<img src="/doc/RPi4LightController.svg" width=80%>
+<img src="/doc/RPi4LightController2.svg" width=80%>
 </div>
 
 ## Results
@@ -152,6 +152,9 @@ $ python3 start.py
 </div>
 
 - 網頁控制開關燈
+<div>
+<img src="/doc/webtn2.gif" width=35%>
+</div>
 
 - 聲音辨識開關燈(點擊圖片)
 <div>
