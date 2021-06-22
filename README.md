@@ -152,3 +152,4 @@ alt="聲音辨識開燈" width=45% />
 - [Google Mediapipe](https://google.github.io/mediapipe/)
 - [Google Cloud Speech Documentation](https://github.com/googleapis/python-speech)
 - [MediaPipe tutorial](https://techtutorialsx.com/2021/04/20/python-real-time-hand-tracking/)
+- [樹梅派虛擬環境建立](https://dsalearning.github.io/aiot/raspberry-pip3-create-env/)
