@@ -55,9 +55,13 @@ $ git clone https://github.com/hchchiu/RPi4-LightController.git
 
 #change directory
 $ cd RPi4-LightController
-
-#install all packages
+```
+```bash
+#在虛擬環境中
 $ pip3 install -r requirement.txt
+
+#不在虛擬環境中
+$ sudo pip3 install -r requirement.txt
 ```
 
 透過[Google API Console](https://console.developers.google.com/)申請Google Cloud Speech API金鑰，並且將金鑰檔案(JSON File)設定到環境變數中
